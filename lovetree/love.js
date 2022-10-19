@@ -1,4 +1,4 @@
-﻿(function(window){
+(function(window){
 
     function random(min, max) {
         return min + Math.floor(Math.random() * (max - min + 1));
@@ -169,7 +169,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "13px Roboto,Arial";
-            ctx.fillText("20-10-> Tiểu Công Chúa :))", 23, 10);
+            ctx.fillText("20-10-> Niw", 23, 10);
             ctx.restore();
         },
         clear: function() {
